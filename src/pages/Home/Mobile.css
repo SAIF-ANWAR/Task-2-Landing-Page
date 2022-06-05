@@ -1,0 +1,132 @@
+.mobiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.mobile {
+    border: 1px solid white;
+    padding: 15px 20px;
+}
+
+.mobile .details {
+    font-size: 14px;
+    border-top: 1px solid #D7D7D7;
+}
+
+.mobile .name {
+    font-size: 24px;
+}
+
+.title {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.mobile .title {
+    font-size: larger;
+}
+
+.mobile .btn {
+    background-color: #D7D7D7;
+    color: black;
+    border: 0;
+}
+
+.mobile:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.mobile .btn:hover {
+    color: white;
+    background-color: rgb(80, 129, 233);
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .mobiles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile {
+        border: 1px solid white;
+        padding: 10px 15px;
+    }
+
+    .mobile .details {
+        font-size: 14px;
+        border-top: 1px solid #D7D7D7;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .mobile .name {
+        font-size: medium;
+    }
+
+    .mobile:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+
+    .mobile .btn:hover {
+        color: white;
+        background-color: rgb(80, 129, 233);
+        transition: 0.5s;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .mobiles {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile {
+        border: 1px solid white;
+        padding: 10px 15px;
+    }
+
+    .mobile .details {
+        font-size: 12px;
+        border-top: 1px solid #D7D7D7;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .mobile .name {
+        font-size: medium;
+    }
+
+
+
+    .mobile:hover {
+        transform: scale(1.03);
+        transition: 1s ease-in-out;
+    }
+
+    .mobile .btn:hover {
+        color: white;
+        background-color: rgb(80, 129, 233);
+        transition: 0.5s;
+    }
+}

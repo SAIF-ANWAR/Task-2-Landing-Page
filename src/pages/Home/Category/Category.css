@@ -1,0 +1,40 @@
+.category {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.brandName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #D7D7D7;
+    margin-top: 5px;
+}
+
+.brandName:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    .category {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .category {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}

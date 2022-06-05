@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-
+Live site [here](https://beamish-kringle-e98ae5.netlify.app/).
+This project is about a landing page of an e-commerce site. It is a mobile store in general. There are 7 sections in total from Navbar to Footer. I have used tailwind and vanilla css for this project. Daisy UI is also used as tailwind css component library
+React hero icons has been aplied to this project. Local api is also used in it.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
